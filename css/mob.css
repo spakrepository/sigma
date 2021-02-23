@@ -1,0 +1,129 @@
+@media screen and (max-width: 768px) {
+    
+  #home {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .for-mobile {
+    position: relative;
+  }
+
+  .mob-bar {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 50%;
+    right: 15px;    
+    transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+}
+
+.mob-bar > span {
+  display: block;
+  width:100%;
+  height: 2px;
+  background: #92b73e;
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  margin-bottom: 7px;
+}
+
+  nav {
+    text-align: left;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .navigation > li {
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  .left-carousel-wrapper {
+    display: block;
+  }
+
+  .side-lato-heading {
+    margin-top: 20px;
+  }
+
+  .round-div{
+    width: 100%;
+  }
+
+  .carousel-control.right, .carousel-control.left {
+    display: none;
+  }
+
+  .carousel-indicators {
+    display: block;
+    top: 120%;
+  }
+
+  .verticle-round-btn-wrapper {
+    visibility: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .margin-t-b-50{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  [src="img/about.jpg"] {
+    display: inline-block;
+    margin-bottom:15px; 
+  }
+
+  .threed-view-wrapper-inner {
+    width: 80%;
+    height:auto;
+  }
+
+  .specific-wrapper-close {      
+    background:grey;
+    border: 1px solid grey;
+    color:#fff;
+    padding: 7px 10px;
+    border-radius: 5px;
+    margin-top: 18px;
+    margin-bottom: 0;
+    margin: auto;
+    display: none;
+}
+
+  .slick-prev, .slick-next {
+    top: 45%;
+  }
+
+  .carousel-indicators li {
+    margin-right: 15px;
+  }
+
+  .product-catalogue-wrapper-bottom > .row > div {
+    margin-bottom: 15px;
+  }
+
+  .threed-view-wrapper-inner > .threed-view-big {
+    display: block;
+    max-width: 100%;
+}
+
+.helping-mob {
+  font-size: 22px;
+}
+
+.carousel-indicators .active {
+  margin-right: 15px;
+}
+    
+  }
